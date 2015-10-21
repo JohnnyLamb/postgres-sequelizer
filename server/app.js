@@ -8,13 +8,17 @@ var bodyParser = require('body-parser');
 var swig = require('swig');
 
 
+// *** create pg tables from models *** //
+var db = require('./models/index.js');
+db.sequelize.sync();
+
+
 // *** routes *** //
 var routes = require('./routes/index.js');
 
 
 // *** express instance *** //
 var app = express();
-
 
 // *** view engine *** //
 var swig = new swig.Swig();

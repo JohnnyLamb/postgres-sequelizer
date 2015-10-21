@@ -1,9 +1,9 @@
 var config = {};
 
 // database settings
-config.DB_NAME = 'test';
-config.DB_USERNAME = '';
-config.DB_PASSWORD = '';
+config.DB_NAME = 'UPDATE_ME';
+config.DB_USERNAME = 'UPDATE_ME';
+config.DB_PASSWORD = 'UPDATE_ME';
 
 
 module.exports = config;
